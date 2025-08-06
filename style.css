@@ -135,4 +135,20 @@
   text-decoration: none;
   color: #0099ff;
   font-size: 9px;
+
+}
+
+.intro-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;        /* تصغير العرض عن الشاشة */
+  max-width: 1000px; /* نفس الحد الأقصى اللي كنت عامله */
+  height: auto;      /* يحافظ على النسبة */
+}
+
+/* على الموبايل (شاشة أصغر من 600px) */
+@media (max-width: 600px) {
+  .intro-img {
+    width: 90%;   /* تصغير العرض أكتر للموبايل */
+  }
 }
